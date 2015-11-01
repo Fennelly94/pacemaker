@@ -22,7 +22,7 @@ import edu.princeton.cs.introcs.StdOut;
 
 public class ConnectedComponentImage {
     
-	Picture picture;
+	 Picture picture;
 	String fileLocation;
 	int width;
 	int height;
