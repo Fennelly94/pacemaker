@@ -200,7 +200,7 @@ public class ConnectedComponentImage {
 		return size;
 	}
 	
-	//Returns the image in black and white.
+	//Returns the image in a greyish colour.
 	public Picture BandW()
 	{
 		Picture pic = new Picture(picture);
