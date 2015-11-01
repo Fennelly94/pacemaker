@@ -28,6 +28,10 @@ public class ConnectedComponentImage {
 	int height;
 	WeightedQuickUnionUF wqu;
 
+	/**
+	 * Initialises the fields
+	 * @param fileLocation
+	 */
 	
 
 	public ConnectedComponentImage(String fileLocation) {
@@ -201,7 +205,7 @@ public class ConnectedComponentImage {
  }
 	
 	//Returns the image in a greyish colour.
-	public Picture BandW()
+	public Picture Greyscale()
 	{
 		Picture pic = new Picture(picture);
 		for (int i = 0; i < pic.width(); i++) {

@@ -122,7 +122,7 @@ public class Driver {
 			case 5: String picSize = image.sizeOfPic();
 			StdOut.println(picSize);
 			break;
-			case 6: Picture picture3 = image.BandW();
+			case 6: Picture picture3 = image.Greyscale();
 					picture3.show();
 			break;
 			case 7: int area = image.getAmountOfPixels();
