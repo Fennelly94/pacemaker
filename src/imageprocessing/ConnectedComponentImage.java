@@ -198,7 +198,7 @@ public class ConnectedComponentImage {
 		int height = pictureSize.height();
 		String size = "The width of this image is " + width + " pixels and the height is " + height + " pixels.";
 		return size;
-	}
+ }
 	
 	//Returns the image in a greyish colour.
 	public Picture BandW()
