@@ -154,7 +154,7 @@ public class ConnectedComponentImage {
 				
 			}
 		}
-		return height;
+	 	return height;
 		
 	}
 	
