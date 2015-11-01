@@ -5,9 +5,9 @@ package imageprocessing;
 
 public class ConnectedComponentImageTest {
 
-public class imageTest {
+public class classTest {
 	
-	public ConnectedComponentImage pic = new ConnectedComponentImage("");
+	
 	
 
 
